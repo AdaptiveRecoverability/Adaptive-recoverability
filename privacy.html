@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy & Data Handling — Adaptive Recoverability Systems</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+  :root {
+    --ink: #0B1929;
+    --panel: #0F1D2C;
+    --line: #1E2D3D;
+    --gold: #C9A24B;
+    --gold-bright: #D4AF6A;
+    --silver: #9FB4C7;
+    --silver-light: #C7D4E2;
+    --white: #E8ECF1;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--ink);
+    color: var(--silver-light);
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 16px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--gold); text-decoration: none; }
+  a:hover { color: var(--gold-bright); }
+
+  header {
+    border-bottom: 1px solid var(--line);
+    padding: 22px 32px;
+  }
+  .header-inner {
+    max-width: 760px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .brand-text {
+    font-size: 13px;
+    letter-spacing: 0.12em;
+    color: var(--white);
+    font-weight: 500;
+  }
+  .brand-text span { color: var(--gold); }
+  .back-link {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--silver);
+  }
+  .back-link:hover { color: var(--gold-bright); }
+
+  main {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 64px 32px 100px;
+  }
+
+  .doc-eyebrow {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 14px;
+  }
+  h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
+    font-size: 2.1rem;
+    color: var(--white);
+    letter-spacing: -0.01em;
+    margin-bottom: 48px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--line);
+  }
+  h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: var(--white);
+    margin: 44px 0 14px;
+  }
+  h2:first-of-type { margin-top: 0; }
+  h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 0.98rem;
+    color: var(--gold-bright);
+    margin: 26px 0 8px;
+  }
+  p {
+    color: var(--silver-light);
+    font-size: 0.98rem;
+    margin-bottom: 14px;
+  }
+  .advisory-note {
+    margin-top: 56px;
+    padding: 20px 22px;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    font-size: 0.88rem;
+    color: var(--silver);
+    font-style: italic;
+    line-height: 1.6;
+  }
+  .doc-footer {
+    margin-top: 56px;
+    padding-top: 24px;
+    border-top: 1px solid var(--line);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--silver);
+    opacity: 0.7;
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="header-inner">
+    <div class="brand-text">ADAPTIVE <span>RECOVERABILITY</span> SYSTEMS</div>
+    <a href="index.html" class="back-link">← Back to site</a>
+  </div>
+</header>
+<main>
+  <div class="doc-eyebrow">July 2026</div>
+  <h1>Privacy & Data Handling</h1>
+  <h2>Our Approach</h2>
+  <p>Adaptive Recoverability Systems has been designed with a strong preference for organisations retaining responsibility for their own assessment information.</p>
+  <p>The platform architecture is designed to allow organisations to maintain control over the governance, storage and lifecycle management of their assessment information wherever practical, rather than relying on the creation of permanent external assessment repositories.</p>
+  <p>Adaptive Recoverability Systems provides a hosted assessment platform rather than managed governance or implementation services. Organisations remain responsible for the governance, retention and operational use of their assessment information in accordance with their own policies and applicable regulatory obligations.</p>
+  <h2>Stateless by Design</h2>
+  <p>Assessment information is processed to generate assessment results.</p>
+  <p>By default, Adaptive Recoverability does not maintain a permanent repository of customer assessment data.</p>
+  <p>Where optional functionality supporting assessment history or longitudinal comparison is introduced in future, assessment information will only be retained where explicitly enabled or otherwise authorised by the customer.</p>
+  <p>This architectural approach is intended to minimise unnecessary information retention while supporting organisations that prefer to maintain direct control over their own information governance.</p>
+  <h2>Information Governance</h2>
+  <p>Adaptive Recoverability complements an organisation's existing governance, regulatory and operational responsibilities by enabling assessment information to remain under the organisation's own control wherever practical.</p>
+  <h2>Security</h2>
+  <p>Adaptive Recoverability Systems applies appropriate technical and organisational safeguards to protect information transmitted through the platform.</p>
+  <p>Authentication, licensing and subscription information are managed separately from assessment processing to support secure platform access.</p>
+  <h2>Privacy</h2>
+  <p>Adaptive Recoverability Systems collects only the information reasonably necessary to administer customer accounts, provide access to the platform and deliver requested services.</p>
+  <p>Assessment information is processed for the purpose of generating assessment results and, by default, is not retained as a permanent assessment repository.</p>
+  <p>Further information regarding the collection, use and protection of personal information is available in the Adaptive Recoverability Systems Privacy Policy.</p>
+  <h2>Continuous Improvement</h2>
+  <p>Adaptive Recoverability Systems periodically reviews its information governance and privacy practices to reflect changes in technology, regulation and customer expectations.</p>
+  <p>The most current version of this page is available through the Adaptive Recoverability website.</p>
+
+  <div class="doc-footer">Copyright © 2026 Adaptive Recoverability Systems. All rights reserved.</div>
+</main>
+</body>
+</html>
